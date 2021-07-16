@@ -140,11 +140,6 @@ public class DealershipController {
 		return "welcome";
 	}
 
-	@GetMapping("/success")
-	public String success(Model model) {
-		return "success";
-	}
-
 	@GetMapping("/login")
 	public ModelAndView login(Model model) {
 		return new ModelAndView("login", "user", new User());

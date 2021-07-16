@@ -108,21 +108,21 @@ public class ListingService {
 		Listing listing6 = new Listing();
 		listing6.setDateListed(LocalDate.of(2021, 06, 04));
 		listing6.setListingAge(0);
-		listing6.setVehicle(new Vehicle(10005, "Used", "Motorcycle", 14295, 2018, "BMW", "S1000RR", "Red",
+		listing6.setVehicle(new Vehicle(10006, "Used", "Motorcycle", 14295, 2018, "BMW", "S1000RR", "Red",
 				62000, "1000cc I4", "6-speed", "No Accidents, No Falls, Clean Bike, Ready to Ride, Full System Two Brothers Exhaust,"
 						+ " Service Done Last Week, New Tires METZELER, R&G Crash Protectors", "assets/img/cars/s1000rr.jpg"));
 		
 		Listing listing7 = new Listing();
 		listing7.setDateListed(LocalDate.of(2021, 01, 01));
 		listing7.setListingAge(0);
-		listing7.setVehicle(new Vehicle(10005, "Used", "Van", 7599, 1988, "Ford", "Econoline 150", "Merlot",
+		listing7.setVehicle(new Vehicle(10007, "Used", "Van", 7599, 1988, "Ford", "Econoline 150", "Merlot",
 				295000, "5.8L V8 Windsor", "automatic", "Great for kids, no windows, AM/FM radio with cassette deck and aux jack, "
 						+ "duct tape and canvas bags under driver seat are included in the sale", "assets/img/cars/freeCandy.jpg"));
 		
 		Listing listing8 = new Listing();
 		listing8.setDateListed(LocalDate.of(2021, 03, 21));
 		listing8.setListingAge(0);
-		listing8.setVehicle(new Vehicle(10005, "new", "Truck", 55800, 2021, "Chevrolet", "Tahoe", "Blue",
+		listing8.setVehicle(new Vehicle(10008, "new", "Truck", 55800, 2021, "Chevrolet", "Tahoe", "Blue",
 				0, "5.3L V8", "automatic", "\r\n"
 						+ "Air Conditioning, Alarm/Anti-Theft System, AM/FM Radio, Aux Audio In, Bluetooth System, Climate Control,"
 						+ " Cooled Seats, Fog Lights, Heated Seats, Keyless Entry, Keyless Start, Leather Seats, Navigation System,"
@@ -132,7 +132,7 @@ public class ListingService {
 		Listing listing9 = new Listing();
 		listing9.setDateListed(LocalDate.of(2021, 07, 01));
 		listing9.setListingAge(0);
-		listing9.setVehicle(new Vehicle(10005, "New", "Truck", 95950, 2021, "Land Rover", "Defender", "Gold",
+		listing9.setVehicle(new Vehicle(10009, "New", "Truck", 95950, 2021, "Land Rover", "Defender", "Gold",
 				0, "2.0L Turbo 4-Cyl", "automatic", "Air Conditioning, Alarm/Anti-Theft System, AM/FM Radio, Aux Audio In, "
 						+ " Bluetooth System, Body Kit, Brush Guard, Cassette Player, CD Player, Climate Control, Cooled Seats, "
 						+ " DVD Player, Fog Lights, Heated Seats, Keyless Entry, Keyless Start, Leather Seats, Moonroof, Navigation System,"
@@ -143,7 +143,7 @@ public class ListingService {
 		Listing listing10 = new Listing();
 		listing10.setDateListed(LocalDate.of(2021, 06, 18));
 		listing10.setListingAge(0);
-		listing10.setVehicle(new Vehicle(10005, "Used", "Truck", 21700, 2015, "Volkwagen", "Touareg", "White",
+		listing10.setVehicle(new Vehicle(10010, "Used", "Truck", 21700, 2015, "Volkwagen", "Touareg", "White",
 				19500, "3.0L V6", "automatic", "Air Conditioning, AM/FM Radio, Aux Audio In, Bluetooth System, Climate Control,"
 						+ " Fog Lights, Leather Seats, Moonroof, Navigation System, Parking Sensors, Power Locks, Power Mirrors,"
 						+ " Power Seats, Power Sunroof, Power Windows, Premium Lights, Premium Sound System, Rear View Camera",
@@ -152,7 +152,7 @@ public class ListingService {
 		Listing listing11 = new Listing();
 		listing11.setDateListed(LocalDate.of(2021, 02, 21));
 		listing11.setListingAge(0);
-		listing11.setVehicle(new Vehicle(10005, "Used", "Car", 21450, 2020, "Mini", "Cooper", "Green",
+		listing11.setVehicle(new Vehicle(10011, "Used", "Car", 21450, 2020, "Mini", "Cooper", "Green",
 				4500, "1.5L 3-Cyl", "automatic", "Air Conditioning, Alarm/Anti-Theft System, AM/FM Radio, Aux Audio In, Bluetooth System,"
 						+ " Body Kit, Brush Guard, Cassette Player, CD Player, Climate Control, DVD Player, Fog Lights, Heat,"
 						+ " Heated Seats, Keyless Start, Leather Seats, Moonroof, Navigation System, Parking Sensors, Performance Tires,"
@@ -162,7 +162,7 @@ public class ListingService {
 		Listing listing12 = new Listing();
 		listing12.setDateListed(LocalDate.of(2021, 05, 29));
 		listing12.setListingAge(0);
-		listing12.setVehicle(new Vehicle(10005, "Used", "Truck", 24000, 2019, "Mazda", "CX-5", "Blue",
+		listing12.setVehicle(new Vehicle(10012, "Used", "Truck", 24000, 2019, "Mazda", "CX-5", "Blue",
 				18200, "2.5L 4-Cyl", "automatic", "Alarm/Anti-Theft System, AM/FM Radio, Aux Audio In, Bluetooth System, Brush Guard,"
 						+ " CD Player, Climate Control, Fog Lights, Keyless Entry, Navigation System, Performance Tyres, Power Locks,"
 						+ " Power Mirrors, Power Windows, Premium Lights, Premium Paint, Premium Sound System, Premium Wheels/Rims,"
@@ -171,7 +171,7 @@ public class ListingService {
 		Listing listing13 = new Listing();
 		listing13.setDateListed(LocalDate.of(2021, 02, 21));
 		listing13.setListingAge(0);
-		listing13.setVehicle(new Vehicle(10005, "Used", "Car", 162000, 2017, "Aston Martin", "DB11", "Black",
+		listing13.setVehicle(new Vehicle(10013, "Used", "Car", 162000, 2017, "Aston Martin", "DB11", "Black",
 				16700, "5.2L V12", "automatic", "Climate Control, Cooled Seats, DVD Player, Keyless Entry, Leather Seats,"
 						+ " Navigation System, Parking Sensors, Premium Sound System, Rear View Camera", "assets/img/cars/db11.jpg"));
 		
